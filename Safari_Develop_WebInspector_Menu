@@ -1,3 +1,7 @@
+Enable Safari Developer Tools
+
+root@TEAkolik# 
+
 defaults write com.apple.Safari IncludeInternalDebugMenu -bool true && \
 defaults write com.apple.Safari IncludeDevelopMenu -bool true && \
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true && \
